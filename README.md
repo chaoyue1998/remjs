@@ -7,7 +7,7 @@
 
 ### 参数
 
-design-width 为设计稿宽度，默认480。
+design-width 为设计稿宽度，默认480。<br>
 max-width 页面显示最大宽度，默认540。
 
 ### 建议
