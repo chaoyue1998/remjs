@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="design" content="design-width=640,max-width=540">
+    <title>mobile</title>
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <link rel="stylesheet" href="https://s2.ssl.qhimg.com/!58ef94bf/normalize.css">
+    <script src="../rem.js"></script>
+    <style>
+    	body {
+    		margin: 0 auto;
+    		overflow: hidden;
+    	}
+    </style>
+</head>
+
+<body>
+
+<div>screen.width : <span id="screenWidth"></span></div>
+<div>document.documentElement.clientWidth : <span id="clientWidth"></span></div>
+<div>window.devicePixelRatio : <span id="devicePixelRatio"></span></div>
+
+<img src="http://p5.qhimg.com/d/inn/d2878935/daqihuans.jpg" alt="" style="width:6.4rem">
+
+
+    <script src="https://s0.ssl.qhimg.com/!808790a8/zepto.min.js"></script>
+<script>
+	$("#screenWidth").text(window.screen.width);
+	$("#clientWidth").text(document.documentElement.clientWidth);
+	$("#devicePixelRatio").text(window.devicePixelRatio);
+</script>
+</body>
+
+</html>
